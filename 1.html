@@ -9,7 +9,45 @@
       body {
         background-image: linear-gradient(45deg, #3b3b7a 0%, #91617e 100%);
       }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #page {
+        width: 29em;
+        height: 29em;
+        background-image: linear-gradient(
+          30deg,
+          rgba(255, 255, 255, 0.522) 15%,
+          #ffffff 59%
+        );
+        border-radius: 0.5em;
+        box-shadow: 0em 1.25em 2.625em 0.375em rgba(0, 0, 0, 0.18);
+        animation: appear;
+        animation-duration: 1.125s;
+        animation-timing-function: ease;
+        animation-delay: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes appear {
+        from {
+          opacity: 0;
+          font-size: 0.875em;
+        }
+        to {
+          opacity: 1;
+          font-size: 1em;
+        }
+      }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div id="root">
+      <main id="page"></main>
+    </div>
+  </body>
 </html>
