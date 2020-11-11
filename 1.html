@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template #1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/global.css" />
     <style>
       body {
@@ -30,6 +34,22 @@
         width: 7em;
         border-radius: 50%;
       }
+      .heading {
+        color: rgba(40, 40, 43, 0.6);
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 2.5em;
+        font-weight: 200;
+        line-height: 1.25;
+        letter-spacing: -0.03em;
+      }
+      .paragraph {
+        color: rgba(40, 40, 43, 0.4);
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.5;
+        letter-spacing: -0.025em;
+      }
 
       @keyframes appear {
         from {
@@ -49,6 +69,8 @@
         <div class="image">
           <img src="/assets/images/image01.jpg" alt="image" />
         </div>
+        <h1 class="heading">Jane Smith</h1>
+        <p class="paragraph">Cyberization Management Systems</p>
       </main>
     </div>
   </body>
