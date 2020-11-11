@@ -19,7 +19,34 @@
         background-size: cover, cover;
         background-color: #ffffff;
       }
+      #page {
+        width: 23em;
+        height: 29em;
+        background-color: rgba(255, 255, 255, 0.929);
+        border-radius: 0.375em;
+        animation: appear;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes appear {
+        from {
+          opacity: 0;
+          transform: perspective(60em) rotateX(45deg);
+          transform-origin: center;
+        }
+        to {
+          opacity: 1;
+          transform: perspective(0em) rotateX(0deg);
+          transform-origin: center;
+        }
+      }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div id="root">
+      <main id="page"></main>
+    </div>
+  </body>
 </html>
