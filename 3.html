@@ -10,14 +10,25 @@
         background-color: #f0f2f5;
       }
       #page {
+        font-size: 14.5px;
         width: 25em;
-        height: 50em;
+        height: 46em;
+        padding: 3.5em 2.5em;
         background-color: #ffffff;
         box-shadow: 0em 0.875em 1.5em 0em rgba(32, 46, 66, 0.059);
         animation: appear;
         animation-duration: 1.25s;
         animation-timing-function: ease-in-out;
         animation-fill-mode: forwards;
+      }
+      .image {
+        margin-top: -3.5em;
+        margin-left: -2.5em;
+        width: calc(100% + 5em);
+      }
+      .image > img {
+        width: 100vw;
+        max-width: 100%;
       }
 
       @keyframes appear {
@@ -32,7 +43,11 @@
   </head>
   <body>
     <div id="root">
-      <main id="page"></main>
+      <main id="page">
+        <div class="image">
+          <img src="/assets/images/image03.jpg" alt="image" />
+        </div>
+      </main>
     </div>
   </body>
 </html>
