@@ -9,7 +9,30 @@
       body {
         background-color: #f0f2f5;
       }
+      #page {
+        width: 25em;
+        height: 50em;
+        background-color: #ffffff;
+        box-shadow: 0em 0.875em 1.5em 0em rgba(32, 46, 66, 0.059);
+        animation: appear;
+        animation-duration: 1.25s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div id="root">
+      <main id="page"></main>
+    </div>
+  </body>
 </html>
