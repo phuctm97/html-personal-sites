@@ -14,7 +14,7 @@
         background-image: linear-gradient(45deg, #3b3b7a 0%, #91617e 100%);
       }
       #page {
-        font-size: 1.125em;
+        font-size: 0.55em;
         width: 29em;
         padding: 3em 2.375em;
         background-image: linear-gradient(
@@ -94,13 +94,41 @@
         fill: rgba(40, 40, 43, 0.6);
       }
 
+      /* animations */
       @keyframes appear {
         from {
           opacity: 0;
-          font-size: 0.875em;
+          transform: scale(0.8);
         }
         to {
           opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      /* breakpoints */
+      @media screen and (min-width: 20em) {
+        #page {
+          font-size: 0.625em;
+        }
+      }
+      @media screen and (min-width: 22em) {
+        #page {
+          font-size: 0.65em;
+        }
+      }
+      @media screen and (min-width: 23.25em) {
+        #page {
+          font-size: 0.7em;
+        }
+      }
+      @media screen and (min-width: 25.5em) {
+        #page {
+          font-size: 0.775em;
+        }
+      }
+      @media screen and (min-width: 48em) {
+        #page {
           font-size: 1.125em;
         }
       }
