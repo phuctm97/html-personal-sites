@@ -10,7 +10,7 @@
         background-color: #f0f2f5;
       }
       #page {
-        font-size: 1.05em;
+        font-size: 0.6em;
         width: 25em;
         padding: 3.5em 2.5em;
         background-color: #ffffff;
@@ -87,12 +87,40 @@
         fill: #7d8bd3;
       }
 
+      /* animations */
       @keyframes appear {
         from {
           opacity: 0;
         }
         to {
           opacity: 1;
+        }
+      }
+
+      /* breakpoints */
+      @media screen and (min-width: 20em) {
+        #page {
+          font-size: 0.65em;
+        }
+      }
+      @media screen and (min-width: 22em) {
+        #page {
+          font-size: 0.7em;
+        }
+      }
+      @media screen and (min-width: 23.25em) {
+        #page {
+          font-size: 0.75em;
+        }
+      }
+      @media screen and (min-width: 25.5em) {
+        #page {
+          font-size: 0.8em;
+        }
+      }
+      @media screen and (min-width: 48em) {
+        #page {
+          font-size: 1.05em;
         }
       }
     </style>
