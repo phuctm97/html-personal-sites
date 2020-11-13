@@ -6,21 +6,21 @@ A collection of minimal, beautiful, and responsive personal site templates. Just
 
 ### No .1
 
-> 🔗 [1.html](1.html)
+> 🔗 Source: [1.html](1.html)
 
-![Screenshot 1](screenshots/1.png)
+![screenshot-1]
 
 ### No. 2
 
-> 🔗 [2.html](2.html)
+> 🔗 Source: [2.html](2.html)
 
-![Screenshot 2](screenshots/2.png)
+![screenshot-2]
 
 ### No. 3
 
-> 🔗 [3.html](3.html)
+> 🔗 Source: [3.html](3.html)
 
-![Screenshot 3](screenshots/3.png)
+![screenshot-3]
 
 ## Credits
 
@@ -29,6 +29,12 @@ Templates are inspired by ones from [Carrd].
 ---
 
 <sub>Made with 💙 by [@phuctm97](https://twitter.com/phuctm97)</sub>
+
+<!-- images -->
+
+[screenshot-1]: assets/screenshots/1.png
+[screenshot-2]: assets/screenshots/2.png
+[screenshot-3]: assets/screenshots/3.png
 
 <!-- links -->
 
