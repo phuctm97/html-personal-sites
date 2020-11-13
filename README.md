@@ -24,8 +24,12 @@ A collection of minimal, beautiful, and responsive personal site templates. Just
 
 ## Credits
 
-Templates are inspired by ones from Carrd.co.
+Templates are inspired by ones from [Carrd].
 
 ---
 
 <sub>Made with 💙 by [@phuctm97](https://twitter.com/phuctm97)</sub>
+
+<!-- links -->
+
+[carrd]: https://carrd.co
