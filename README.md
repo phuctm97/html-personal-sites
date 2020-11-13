@@ -6,19 +6,19 @@ A collection of minimal, beautiful, and responsive personal site templates. Just
 
 ### No .1
 
-> 🔗 Source: [1.html](1.html)
+> 👉🏻 [Source](1.html)
 
 ![screenshot-1]
 
 ### No. 2
 
-> 🔗 Source: [2.html](2.html)
+> 👉🏻 [Source](2.html)
 
 ![screenshot-2]
 
 ### No. 3
 
-> 🔗 Source: [3.html](3.html)
+> 👉🏻 [Source](3.html)
 
 ![screenshot-3]
 
