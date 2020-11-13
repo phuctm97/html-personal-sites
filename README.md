@@ -22,12 +22,10 @@ A collection of minimal, beautiful, and responsive personal site templates. Just
 
 ![Screenshot 3](screenshots/3.png)
 
----
-
 ## Credits
 
 Templates are inspired by ones from Carrd.co.
 
 ---
 
-<sup>Made with 💙 by [@phuctm97](https://twitter.com/phuctm97)</sup>
+<sub>Made with 💙 by [@phuctm97](https://twitter.com/phuctm97)</sub>
