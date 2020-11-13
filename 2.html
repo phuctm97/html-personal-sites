@@ -8,8 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/global.css" />
     <style>
+      /* styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+        padding: 0;
+      }
       body {
         background-attachment: scroll;
         background-image: linear-gradient(
@@ -22,6 +28,14 @@
         background-repeat: repeat, no-repeat;
         background-size: cover, cover;
         background-color: #ffffff;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5em;
       }
       #page {
         font-size: 0.55em;

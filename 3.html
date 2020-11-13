@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template #3</title>
-    <link rel="stylesheet" href="/global.css" />
     <style>
+      /* styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+        padding: 0;
+      }
       body {
         background-color: #f0f2f5;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5em;
       }
       #page {
         font-size: 0.6em;
